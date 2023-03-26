@@ -8,37 +8,65 @@
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
-        <div>
-            <p>page <strong>works!!!!</strong></p>
-            <p>this is a <small>test</small> <em>page</em></p>
-            <a
-                href="https://docs.google.com/spreadsheets/d/1YR9fl7F0bOnexciQUDcizrZzB0l87EMg0akL1gPnz7U/edit#gid=0"
-                >music spreadsheet</a
-            >
-        </div>
-
-        <div>
-            <h1>heading 1</h1>
-            <h2>heading 2</h2>
-            <h3>heading 3</h3>
-            <h4>heading 4</h4>
-        </div>
-
-        <div>
+        <header>
+            <h1>Marioclub</h1>
+        </header>
+        <section class="banner">
+            <img src="images/banner.png" alt="marioclub welcome banner" />
+            <div class="welcome">
+                <h2>Welcome to <br /><span>Marioclub</span></h2>
+            </div>
+        </section>
+        <nav class="main-nav">
             <ul>
-                <li>yoshi</li>
-                <li>toad</li>
-                <li>luigi</li>
+                <li><a href="/join.html" class="join">Join the club</a></li>
+                <li><a href="/news.html">Latest news</a></li>
+                <li><a href="/games.html">New games</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
-        </div>
-
-        <span>I am a <br />span tag</span>
-
-        <hr />
-
-        <img
-            src="images/google_pfp.png"
-            alt="record player in 8 bit art style"
-        />
+        </nav>
+        <main>
+            <article>
+                <h2>It's a me, Mario</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sit a id velit inventore porro, obcaecati quo debitis
+                    ratione natus sed, similique vitae eveniet voluptatibus
+                    tempora sunt quidem consequuntur! Eveniet, quo? Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Vitae aliquid
+                    facere nemo quaerat, perspiciatis optio dicta, qui dolore ab
+                    eaque numquam similique laudantium beatae? Temporibus cumque
+                    ex iste dolorem ullam! Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Laboriosam non eos
+                    reprehenderit nesciunt et quam rem velit rerum tempora saepe
+                    provident veniam quibusdam odio repellat, commodi quia
+                    soluta itaque cumque?
+                </p>
+            </article>
+            <ul class="images">
+                <li><img src="images/thumb-1.png" alt="mario thumb 1" /></li>
+                <li><img src="images/thumb-2.png" alt="mario thumb 2" /></li>
+            </ul>
+        </main>
+        <section class="join">
+            <h2>Join Today!</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex,
+                quasi. Incidunt quas hic nihil ab. Natus porro fugit nobis aut
+                dignissimos debitis delectus deleniti cum. Veniam deserunt enim
+                omnis quasi?
+            </p>
+            <form>
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Type email & hit enter"
+                    required
+                />
+            </form>
+        </section>
+        <footer>
+            <p class="copyright">Copyright 2023 Marioclub</p>
+        </footer>
     </body>
 </html>
